@@ -1,3 +1,6 @@
+# Live Demo
+
+[https://atul-voice-app-102ba.web.app](https://atul-voice-app-102ba.web.app)
 
 # Technical Assessment Project: Voice Command Shopping Assistant
 
@@ -32,47 +35,3 @@ This project is a voice-based shopping list manager with smart suggestions, buil
 ### 6. Hosting
 - **Firebase Hosting:** Reliable, fast deployment.
 
-## Technical Approach (200 words max)
-The app uses React for UI, Vite for fast development, and Tailwind CSS for styling. Voice commands are processed using the browser’s SpeechRecognition API, with NLP logic to parse varied phrases and extract item names, quantities, and actions (add/remove/search). Smart suggestions are generated based on season and simulated shopping history, with easy extension for real user data. Items are auto-categorized and can be managed by voice or text. The UI is minimalist, with real-time feedback and mobile optimization. For deployment, Firebase Hosting is used for reliability and speed. The code is modular, clean, and includes error handling and loading states for a smooth user experience. Multilingual support and Google Cloud Speech-to-Text integration can be added as needed.
-
-## Getting Started
-### Prerequisites
-- Node.js (v18+ recommended)
-- npm
-- Firebase CLI (`npm install -g firebase-tools`)
-
-### Installation
-1. Clone the repository:
-  ```
-  git clone https://github.com/yourusername/atul-app.git
-  cd atul-app/atul-app
-  ```
-2. Install dependencies:
-  ```
-  npm install
-  ```
-
-### Development
-Start the development server:
-```
-npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build & Deploy
-1. Build for production:
-  ```
-  npm run build
-  ```
-2. Deploy to Firebase Hosting:
-  ```
-  firebase deploy
-  ```
-
-## Deliverables
-1. Working application URL (Firebase Hosting)
-2. GitHub repository with source code and README
-3. Brief write-up of approach (see above)
-
-## License
-MIT
