@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional: nicer default font */
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; }
